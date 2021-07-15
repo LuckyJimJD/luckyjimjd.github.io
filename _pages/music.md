@@ -1,6 +1,6 @@
 ---
 layout: music
-permalink: /bookmarks/
+permalink: /music/
 title: Music
 ---
 
