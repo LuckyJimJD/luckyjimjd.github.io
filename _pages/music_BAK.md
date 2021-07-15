@@ -4,15 +4,6 @@ permalink: /music/
 title: Music
 ---
 
-{% for song in site.data.songs %}
-	
-<a href="{{ song.file }}">
-<span>
-<h4>{{ song.title }}</h4>
-</span>
-</a>
-{% endfor %}
-
 [Clay Pigeons](../assets/music/ClayPigeons.ogg)
 
 [Return of the Grievous Angel](../assets/music/ReturnOfTheGrievousAngel.ogg)
