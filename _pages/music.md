@@ -6,4 +6,4 @@ title: Music
 
 [Clay Pigeons](../assets/music/ClayPigeons.ogg)
 
-[Return of the Grievous Angel](../assets/music/ReturnOfTheGrievousAngel.flac)
+[Return of the Grievous Angel](../assets/music/ReturnOfTheGrievousAngel.ogg)
