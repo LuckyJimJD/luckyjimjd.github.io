@@ -1,7 +1,7 @@
 ---
-layout: music
+layout: page
 permalink: /bookmarks/
 title: Music
 ---
 
-{% miniaudio '/assets/music/demo.mp3' %}
+{% miniaudio '/assets/music/ClayPigeons.ogg' %}
