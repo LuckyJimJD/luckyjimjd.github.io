@@ -4,8 +4,6 @@ permalink: /music/
 title: Music
 ---
 
-{% for song in site.data.songs %}
-
 <div class="row">
 
 <div class="column">
