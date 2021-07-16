@@ -20,21 +20,20 @@ div.control-container {
     color: white;
     margin-top: 10px; }
     div.control-container div.meta-container span[data-amplitude-song-info="name"] {
-      font-family: "Open Sans", sans-serif;
-      font-size: 18px;
+      font-family: $sans-font, sans-serif;
+      font-size: $large-size;
       color: #fff;
       display: block; }
     div.control-container div.meta-container span[data-amplitude-song-info="artist"] {
-      font-family: "Open Sans", sans-serif;
-      font-weight: 100;
-      font-size: 14px;
+      font-family: $sans-font, sans-serif;
+      font-weight: $thin-weight;
+      font-size: $small-size;
       color: #fff;
       display: block; }
   div.control-container:after {
     content: "";
     display: table;
     clear: both; }
-
 
 @media screen and (max-width: 39.9375em) {
   div.control-container div.amplitude-play-pause {
@@ -47,9 +46,9 @@ div.control-container {
 
 div.time-container {
   opacity: 0.5;
-  font-family: 'Open Sans';
-  font-weight: 100;
-  font-size: 12px;
+  font-family: $sans-font, sans-serif;
+  font-weight: $thin-weight;
+  font-size: $smaller-size;
   color: #fff;
   height: 15px; }
   div.time-container span.current-time {
@@ -82,14 +81,10 @@ progress[value]::-moz-progress-bar {
 progress[value]::-webkit-progress-value {
   background-color: #00a0ff; }
 
-
-
 div.bottom-container {
   background-color: #202136;
   border-bottom-right-radius: 10px;
   border-bottom-left-radius: 10px; }
-
-
 
 div#single-song-player {
   border-radius: 10px;
@@ -103,17 +98,3 @@ div#single-song-player {
     width: 100%;
     border-top-right-radius: 10px;
     border-top-left-radius: 10px; }
-
-a.learn-more{
-  display: block;
-  width: 300px;
-  margin: auto;
-  margin-top: 30px;
-  text-align: center;
-  color: white;
-  text-decoration: none;
-  background-color: #202136;
-  font-family: "Lato", sans-serif;
-  padding: 20px;
-  font-weight: 100;
-}
