@@ -1,11 +1,15 @@
 - title: Blues Run the Game
   url: 'BluesRuntheGame.ogg'
+  art: 'AlbumCover.png'
 
 - title: Clay Pigeons
   url: 'ClayPigeons.ogg'
+  art: 'AlbumCover.png'
 
 - title: Fireworks
   url: 'Fireworks.ogg'
+  art: 'AlbumCover.png'
 
 - title: Return of the Grievous Angel
   url: 'GrievousAngel.ogg'
+  art: 'AlbumCover.png'
