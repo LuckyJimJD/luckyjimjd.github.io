@@ -35,9 +35,7 @@ div.control-container {
     display: table;
     clear: both; }
 
-/*
-  Small only
-*/
+
 @media screen and (max-width: 39.9375em) {
   div.control-container div.amplitude-play-pause {
     background-size: cover;
@@ -45,12 +43,8 @@ div.control-container {
     height: 64px; }
   div.control-container div.meta-container {
     width: calc(100% - 74px); } }
-/*
-  Medium only
-*/
-/*
-  Large Only
-*/
+
+
 div.time-container {
   opacity: 0.5;
   font-family: 'Open Sans';
@@ -65,15 +59,8 @@ div.time-container {
     float: right;
     margin-right: 5px; }
 
-/*
-  Small only
-*/
-/*
-  Medium only
-*/
-/*
-  Large Only
-*/
+
+
 progress.amplitude-song-played-progress {
   background-color: #313252;
   -webkit-appearance: none;
@@ -95,32 +82,15 @@ progress[value]::-moz-progress-bar {
 progress[value]::-webkit-progress-value {
   background-color: #00a0ff; }
 
-/*
-  Small only
-*/
-/*
-  Medium only
-*/
-/*
-  Large Only
-*/
-/*
-  3. Layout
-*/
+
+
 div.bottom-container {
   background-color: #202136;
   border-bottom-right-radius: 10px;
   border-bottom-left-radius: 10px; }
 
-/*
-  Small only
-*/
-/*
-  Medium only
-*/
-/*
-  Large Only
-*/
+
+
 div#single-song-player {
   border-radius: 10px;
   margin: auto;
@@ -147,13 +117,3 @@ a.learn-more{
   padding: 20px;
   font-weight: 100;
 }
-/*
-  Small only
-*/
-/*
-  Medium only
-*/
-/*
-  Large Only
-*/
-/*
