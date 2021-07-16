@@ -26,6 +26,5 @@ title: Music
 
 </div>
 
-<p>{{ song.title }} {% include embed-audio.html src="../assets/music/{{ song.file }" %}</p>
 
 
