@@ -4,26 +4,20 @@ permalink: /music/
 title: Music
 ---
 
-<div class="flex-container">
+<div class="container">
+  <div class="row">
+    <div class="col big-box">
+      <img src="../assets/music/AlbumCover1.png" alt="Album Cover" >
+    </div>
 
-<div>
-<img src="../assets/music/AlbumCover1.png" alt="Album Cover" width="90%" >
-</div>
+    <div class="col">
+		{% for song in site.data.songs %}
+    		<div class="row">
+    			<div class="col mini-box">{{ song.title }}</div>
+    			<div class="col mini-box">{% include embed-audio.html src="../assets/music/{{ song.file }" %}</div>
+    		</div>
+		{% endfor %}
+    </div>
 
-<div>
-{% for song in site.data.songs %}
-<div class="flex-container">
-{{ song.title }}
+  </div>
 </div>
-{% endfor %}
-</div>
-
-<div>
-{% for song in site.data.songs %}
-<div class="flex-container">{% include embed-audio.html src="../assets/music/{{ song.file }" %}
-</div>
-{% endfor %}
-</div>  
-  
-</div>
-
