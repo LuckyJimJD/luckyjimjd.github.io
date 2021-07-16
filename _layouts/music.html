@@ -42,9 +42,10 @@
   Amplitude.init({
     "songs": [
       {
-        "name": "Return of the Grievous Angel",
-        "artist": "Ulrich Kvetcher",
-        "url": "../assets/music/GrievousAngel.ogg",
+		{% for song in site.data.songs %}
+        "name": "{{ song.title }}",
+        "url": "../assets/music/{{ song.url }",
+		{% endfor %}
         "cover_art_url": "../assets/music/AlbumCover.png"
       }
     ]
