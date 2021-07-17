@@ -43,12 +43,82 @@ Amplitude.init({
     32: 'play_pause'
   },
   "songs": [
-  {% for song in site.data.songs %}
-    {		
-      "name": "{{ song.title }}",
-      "url": "../assets/music/{{ song.url }}",
-      "cover_art_url": "../assets/music/{{ song.art }}"
+    {
+      "name": "Blues Run the Game",
+      "artist": "Ulrich Kvetcher",
+      "album": "Too Old for Teen Angst, Too Young to Die",
+      "url": "../assets/music/BluesRuntheGame.ogg",
+      "cover_art_url": "../assets/music/AlbumCover.png"
+    },
+    {
+      "name": "Clay Pigeons",
+      "artist": "Ulrich Kvetcher",
+      "album": "Too Old for Teen Angst, Too Young to Die",
+      "url": "../assets/music/ClayPigeons.ogg",
+      "cover_art_url": "../assets/music/AlbumCover.png"
+    },
+    {
+      "name": "Fireworks",
+      "artist": "Ulrich Kvetcher",
+      "album": "Too Old for Teen Angst, Too Young to Die",
+      "url": "../assets/music/Fireworks.ogg",
+      "cover_art_url": "../assets/music/AlbumCover.png"
+    },
+    {
+      "name": "Return of the Grievous Angel",
+      "artist": "Ulrich Kvetcher",
+      "album": "Too Old for Teen Angst, Too Young to Die",
+      "url": "../assets/music/GrievousAngel.ogg",
+      "cover_art_url": "../assets/music/AlbumCover.png"
+    },
+    {
+      "name": "First Snow",
+      "artist": "Emancipator",
+      "album": "Soon It Will Be Cold Enough",
+      "url": "../songs/FirstSnow-Emancipator.mp3",
+      "cover_art_url": "../assets/music/AlbumCover.png"
+    },
+    {
+      "name": "Terrain",
+      "artist": "pg.lost",
+      "album": "Key",
+      "url": "../songs/Terrain-pglost.mp3",
+      "cover_art_url": "../assets/music/AlbumCover.png"
+    },
+    {
+      "name": "Vorel",
+      "artist": "Russian Circles",
+      "album": "Guidance",
+      "url": "../songs/Vorel-RussianCircles.mp3",
+      "cover_art_url": "../assets/music/AlbumCover.png"
+    },
+    {
+      "name": "Intro / Sweet Glory",
+      "artist": "Jimkata",
+      "album": "Die Digital",
+      "url": "../songs/IntroSweetGlory-Jimkata.mp3",
+      "cover_art_url": "../assets/music/AlbumCover.png"
+    },
+    {
+      "name": "Offcut #6",
+      "artist": "Little People",
+      "album": "We Are But Hunks of Wood Remixes",
+      "url": "../songs/Offcut6-LittlePeople.mp3",
+      "cover_art_url": "../assets/music/AlbumCover.png"
+    },
+    {
+      "name": "Dusk To Dawn",
+      "artist": "Emancipator",
+      "album": "Dusk To Dawn",
+      "url": "../songs/DuskToDawn-Emancipator.mp3",
+      "cover_art_url": "../assets/music/AlbumCover.png"
+    },
+    {
+      "name": "Anthem",
+      "artist": "Emancipator",
+      "album": "Soon It Will Be Cold Enough",
+      "url": "../songs/Anthem-Emancipator.mp3",
+      "cover_art_url": "../assets/music/AlbumCover.png"
     }
-  {% endfor %}
   ]
 });
