@@ -1,6 +1,6 @@
 ---
 layout: music
-permalink: /music/
+permalink: /Music/
 title: Music
 ---
 
