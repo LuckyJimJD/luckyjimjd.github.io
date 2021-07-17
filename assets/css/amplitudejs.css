@@ -21,6 +21,7 @@ div#list-screen {
     position: relative;
     color: white;
     font-family: adelle-sans, Lato, sans-serif;
+	font-size: 14px;
     cursor: pointer; }
     div#list-screen div#list-screen-header img#up-arrow {
       position: absolute;
@@ -143,7 +144,8 @@ div.player-header {
   margin-top: 40px;
   cursor: pointer;
   color: white;
-  font-family: adelle-sans, Lato, sans-serif; }
+  font-family: adelle-sans, Lato, sans-serif;
+  font-size: 14px; }
   div.player-header img#down {
     position: absolute;
     top: 23px;
@@ -219,8 +221,8 @@ div#player-middle {
     color: white;
     width: 100%;
     background-color: #000;
-    font-size: 14px;
-    font-weight: bold; }
+    font-size: 12px;
+    font-weight: normal; }
     div#player-middle div#time-container span.amplitude-duration-time {
       position: absolute;
       top: 0px;
@@ -230,14 +232,14 @@ div#player-middle {
       top: 0px;
       left: 5px; }
   div#player-middle span.song-name {
-    font-family: Lato, sans-serif;
+    font-family: adele-sans, Lato, sans-serif;
     font-size: 16px;
     color: #fff;
     line-height: 24px;
     display: block; }
   div#player-middle div.song-artist-album {
     opacity: 0.5;
-    font-family: Lato, sans-serif;
+    font-family: adele-sans, Lato, sans-serif;
     font-size: 14px;
     color: #fff;
     line-height: 16px; }
