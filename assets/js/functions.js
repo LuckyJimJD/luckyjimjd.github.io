@@ -46,28 +46,24 @@ Amplitude.init({
     {
       "name": "Blues Run the Game",
       "artist": "Ulrich Kvetcher",
-      "album": "Too Old for Teen Angst, Too Young to Die",
       "url": "../assets/music/BluesRuntheGame.ogg",
       "cover_art_url": "../assets/music/AlbumCover.png"
     },
     {
       "name": "Clay Pigeons",
       "artist": "Ulrich Kvetcher",
-      "album": "Too Old for Teen Angst, Too Young to Die",
       "url": "../assets/music/ClayPigeons.ogg",
       "cover_art_url": "../assets/music/AlbumCover.png"
     },
     {
       "name": "Fireworks",
       "artist": "Ulrich Kvetcher",
-      "album": "Too Old for Teen Angst, Too Young to Die",
       "url": "../assets/music/Fireworks.ogg",
       "cover_art_url": "../assets/music/AlbumCover.png"
     },
     {
       "name": "Return of the Grievous Angel",
       "artist": "Ulrich Kvetcher",
-      "album": "Too Old for Teen Angst, Too Young to Die",
       "url": "../assets/music/GrievousAngel.ogg",
       "cover_art_url": "../assets/music/AlbumCover.png"
     }
