@@ -439,7 +439,7 @@ div#player-bottom {
   3. Layout
 */
 body {
-  background-color: $background-color;
+  background-color: rgba(0, 0, 0, 0.8);
   -webkit-font-smoothing: antialiased;
   line-height: 1.5;
   font-family: @sans-font, sans-serif; }
