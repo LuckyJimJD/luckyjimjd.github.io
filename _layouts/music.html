@@ -111,12 +111,30 @@
 
 </body>
 
-  <!--
-    Include UX functions JS
+<!-- Amplitude JS -->
 
-    NOTE: These are for handling things outside of the scope of AmplitudeJS
-  -->
-  <script type="text/javascript" src="https://www.emfink.net/assets/js/functions.js"></script>
+
+<script>
+Amplitude.init({
+  "bindings": {
+    37: 'prev',
+    39: 'next',
+    32: 'play_pause'
+  },
+  "songs": [
+  {% for song in site.data.songs %}
+    {		
+      "name": "{{ song.title }}",
+      "url": "../assets/music/{{ song.url }}",
+      "cover_art_url": "../assets/music/{{ song.art }}"
+    }
+  {% endfor %}
+  ]
+});
+</script>
+
+
+
 
 </html>
 
