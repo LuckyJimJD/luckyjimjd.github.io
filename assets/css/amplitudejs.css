@@ -450,9 +450,20 @@ div#player-bottom {
 		margin: auto;
 	}
 
-
-/*
-4. Animations
+	/*
+4. Pages
+*/
+	/*
+5. Themes
+*/
+	/*
+6. Utils
+*/
+	/*
+7. Vendors
+*/
+	/*
+8. Animations
 */
 	.slide-in-top {
 		-webkit-animation: slide-in-top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
