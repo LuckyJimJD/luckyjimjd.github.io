@@ -16,6 +16,7 @@ phone: 336-279-9334
 collections: 
   songs: 
     output: true 
+    permalink: /:collection/:name
 
 
 # -----------------------------------------------------------------------------
