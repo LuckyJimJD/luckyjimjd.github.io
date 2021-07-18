@@ -1,6 +1,6 @@
 ---
 layout: song
-title: Song Title 
+title: Not Ashamed 
 song: "NotAshamed.ogg"
 
 ---
