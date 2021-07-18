@@ -1,5 +1,5 @@
 ---
-layout: jPlayer
+layout: song
 title: Song Title 
 song: "NotAshamed.ogg"
 
