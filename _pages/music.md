@@ -1,5 +1,5 @@
 ---
-layout: music
+layout: amplitudejs
 permalink: /Music/
 title: Music
 ---
