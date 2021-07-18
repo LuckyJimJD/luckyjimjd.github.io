@@ -1,6 +1,5 @@
 ---
 layout: page
-permalink: /SingTitle/
 title: Song Title 
 
 ---
