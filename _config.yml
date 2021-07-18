@@ -14,9 +14,8 @@ email: emfink@gmail.com
 phone: 336-279-9334
 
 collections: 
-  Songs: 
+  songs: 
     output: true 
-    permalink: /:collection/:name
 
 
 # -----------------------------------------------------------------------------

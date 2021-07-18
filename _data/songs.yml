@@ -1,0 +1,24 @@
+- title: Blues Run the Game
+  url: 'BluesRuntheGame.ogg'
+  index: '0'
+  art: 'AlbumCover.png'
+
+- title: Clay Pigeons
+  url: 'ClayPigeons.ogg'
+  index: '1'
+  art: 'AlbumCover.png'
+
+- title: Fireworks
+  url: 'Fireworks.ogg'
+  index: '2'
+  art: 'AlbumCover.png'
+
+- title: Not Ashamed
+  url: 'NotAshamed.ogg'
+  index: '3'
+  art: 'AlbumCover.png'
+
+- title: Return of the Grievous Angel
+  url: 'GrievousAngel.ogg'
+  index: '4'
+  art: 'AlbumCover.png'
