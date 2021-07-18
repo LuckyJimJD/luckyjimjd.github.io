@@ -2,7 +2,7 @@
 layout: song
 permalink: /NotAshamed/
 title: 'Not Ashamed'
-url: 'NotAshamed.ogg'
-art: 'AlbumCover.png'
+url: '../assets/music/NotAshamed.ogg'
+art: '../assets/music/AlbumCover.png'
 ---
 
