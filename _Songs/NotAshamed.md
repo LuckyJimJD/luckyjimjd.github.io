@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Not Ashamed
+title: "Not Ashamed"
 song: "NotAshamed.ogg"
 art: "AlbumCover.png"
 
