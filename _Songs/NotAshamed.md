@@ -7,4 +7,3 @@ art: "AlbumCover.png"
 
 ---
 
-![](../assets/music/NotAshamed.ogg)
