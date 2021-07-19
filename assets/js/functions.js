@@ -46,7 +46,7 @@ Amplitude.init({
     {
       "name": "Blues Run the Game",
       "artist": "Ulrich Kvetcher",
-      "url": "../assets/music/BluesRuntheGame.ogg",
+      "url": "../assets/music/BluesRunTheGame.ogg",
       "cover_art_url": "../assets/music/AlbumCover.png"
     },
     {
