@@ -90,6 +90,11 @@
 	display: flex;
 }
 .audio-player .controls .time > * {
+	font-size: .5rem;
+	padding: 2px;
+}
+.audio-player .controls .name > * {
+	font-size: .8rem;
 	padding: 2px;
 }
 .audio-player .controls .volume-container {
