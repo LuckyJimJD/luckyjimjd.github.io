@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Put the Song Title Here
-song: "NotAshamed.ogg"
+title: Song Title
+song: "Song.ogg"
 
 ---
 
-![](../assets/music/NotAshamed.ogg)
+![](../assets/music/Song.ogg)
