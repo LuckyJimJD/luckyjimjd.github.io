@@ -27,3 +27,9 @@
   page: GrievousAngel
   index: '4'
   art: 'AlbumCover.png'
+  
+- title: New Paint
+  url: 'NewPaint.ogg'
+  page: NewPaint
+  index: '5'
+  art: 'AlbumCover.png'
